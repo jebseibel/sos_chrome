@@ -1,0 +1,15 @@
+{
+  "app_title": "Chrome Cleaner",
+  "title_width": 300.0,
+  "logo": {
+    "name": "assets/logo_gray.png",
+    "width": 300,
+    "height": 60
+  },
+  "button_labels": {
+    "button_1": "Clear Add-ons",
+    "button_2": "Remove Hijackers",
+    "button_3": "Block Notifications",
+    "button_4": "Flush History"
+  }
+}
