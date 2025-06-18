@@ -5,8 +5,14 @@ use std::fs;
 pub struct Config {
     pub app_title: String,
     pub title_width: f32,
+    pub chrome: ChromePaths,
     pub logo: Logo, // ✅ Add this line
     pub button_labels: ButtonLabels,
+}
+
+#[derive(Debug, Deserialize)]
+pub struct ChromePaths {
+    pub local_state_path: String,
 }
 
 #[derive(Debug, Deserialize)]
